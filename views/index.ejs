@@ -1,3 +1,20 @@
-<h1>Index</h1>
+<% include ./partials/header %>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1><i class="fas fa-paw" aria-hidden="true"></i> Pet Friends</h1>
+    <hr>
+    <h2>Answer a few basic questions. </h2>
+    <h2>Then find the friend with the greatest compatibility!</h2>
+    <br>
+
+    <div>
+      <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><i class="fas fa-clipboard-list"></i> Go to Survey</h4></button></a>
+    </div>
+
+  </div>
+</div>
 
 <%= pets.allPets[0].name %>
+
+<% include ./partials/footer %>
